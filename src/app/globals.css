@@ -70,3 +70,23 @@ body {
     @apply bg-background text-foreground;
   }
 }
+
+body {
+  margin: 0;
+  width: 100%;
+  position: relative;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
