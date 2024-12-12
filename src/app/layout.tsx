@@ -27,8 +27,10 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <nav>
-          <h1>shadcn/ui carousel</h1>
+        <nav className="p-4 md:p-8">
+          <h1 className="border-b-[1px] border-black w-fit">
+            shadcn/ui carousel
+          </h1>
         </nav>
         {children}
       </body>
